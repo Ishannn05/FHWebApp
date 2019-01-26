@@ -1,0 +1,22 @@
+{
+  "name": "fhwebapp",
+  "version": "1.0.0",
+  "description": "Application for Fuel Hook web interface",
+  "main": "index@FH.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishannn05/FHWebApp.git"
+  },
+  "author": "Ishan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishannn05/FHWebApp/issues"
+  },
+  "homepage": "https://github.com/Ishannn05/FHWebApp#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}
