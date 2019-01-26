@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags always come first -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
+	    <link href="css/styles@FH.css" type="text/css" rel="stylesheet">
+		<title>Fuel Hook</title>
+	</head>
+
+	<body>				
+		<nav class="navbar navbar-dark navbar-expand-md fixed-top">
+            <a class="navbar-brand " href="#"><img src="images/logo.png" class="img-fluid img-thumbnail bg-white rounded" style="height: 50px;"></a>
+            <div width="150px"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="Navbar">   
+                <ul class="navbar-nav mr-auto">
+                	<!-- <li class="nav-item d-md-none border-bottom">
+                		<a class="navbar-brand d-block d-md-none" href="#"><img src="images/logo.png" class="img-fluid border bg-white rounded"></a>
+                	</li> -->
+                	<li class="nav-item d-md-none border-bottom">
+                		<a href="" data-toggle="modal" data-target="#forms" class="nav-link montserrat" style="font-size: 20px;"><div class="min-width text-center d-inline-block"><i class="fa fa-lg fa-user-o "></i></div> Sign In</a>
+                	</li>
+                    <li class="nav-item">
+                    	<a href="#" class="nav-link montserrat" style="font-size: 20px;"><div class="min-width text-center d-inline-block"><i class="fa fa-lg fa-home  d-md-none"></i></div> Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    	<a href="aboutus@FH.html" class="nav-link montserrat" style="font-size: 20px;"><div class="min-width text-center d-inline-block"><i class="fa fa-lg fa-info d-md-none"></i></div> About</a>
+                    </li>
+                    <li class="nav-item">
+                    	<a href="#" class="nav-link montserrat " style="font-size: 20px;"><div class="min-width text-center d-inline-block"><i class="fa fa-lg fa-address-card d-md-none"></i></div> Contact</a>
+                    </li>
+              	</ul>
+            </div>
+    		<ul class="navbar-nav navbar-right d-none d-md-block">
+    			<li class="nav-item">
+    				<a data-toggle="modal" data-target="#forms" class="nav-link montserrat" style="font-size: 20px; cursor: pointer;"><i class="fa fa-lg fa-user-o"></i> Sign In</a>
+    			</li>
+    		</ul>  	
+	    </nav>
+				
+		<div id="forms" class="modal fade" role="dialog">
+			<button class="close text-white" data-dismiss="modal"><strong>&times;</strong></button>
+			<div class="modal-dialog modal-dialog-centered" role="content">
+				<div class="modal-content  border-0 bg-transparent">
+					<div class="modal-header border-0 ">
+						<ul class="nav nav-pills mx-auto bg-transparent mb-2">
+							<li class="nav-item">
+								<a href="#signin" class="nav-link active font-weight-bold" role="tab" data-toggle="tab">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#signup" class="nav-link font-weight-bold" role="tab" data-toggle="tab">Sign up</a>
+							</li>
+						</ul>
+					</div>
+					<div class="modal-body">
+						<div class="tab-content">
+							<div id="signin" class="card card-body tab-pane fade show active" role="tabpanel">
+								<form class="row form my-auto">
+									<label for="Email" class="col-12 col-form-label montserrat">
+										<h5>Email</h5>
+									</label>
+									<div class="col-12 form-group">
+										<input type="email" id="emailid" name="emailid" required="required" class="form-control" placeholder="Please enter your email">
+									</div>
+									<label for="password" class="col-12 col-form-label montserrat">
+										<h5>Password</h5>
+									</label>
+									<div class="col-12 form-group">
+										<input type="password" id="password" name="password" required="required" class="form-control" placeholder="Your password">
+									</div>
+									<div class="col-12">
+										<div class="row">
+											<div class="col-6">
+											<input type="checkbox" name="remember"> 
+											<label>Remember me?</label>
+											</div>
+											<a href="" class="col-auto ml-auto"> Forgot password?</a>
+										</div>
+									</div>
+									<div class="col-12 text-center">
+				                        <button type="submit" class="btn btn-primary">Sign In</button>
+				                    </div>
+								</form>
+							</div>
+							<div id="signup" class="card card-body tab-pane fade" role="tabpanel">
+								<form class="row form my-auto">
+									<label for="Email" class="col-12 col-form-label montserrat">
+										<h5>Username</h5>
+									</label>
+									<div class="col-12 form-group">
+										<input type="text" id="uname" name="username" required="required" class="form-control" placeholder="Choose a username">
+									</div>
+									<label for="Email" class="col-12 col-form-label montserrat">
+										<h5>Name</h5>
+									</label>
+									<div class="col-5 form-group">
+										<input type="text" id="firstname" name="firstname" required="required" class="form-control" placeholder="First Name">
+									</div>
+									<div class="col-7 form-group">
+										<input type="text" id="secondname" name="secondname" required="required" class="form-control" placeholder="Second Name">
+									</div>
+									<label for="Email" class="col-12 col-form-label montserrat">
+										<h5>Email</h5>
+									</label>
+									<div class="col-12 form-group">
+										<input type="email" id="emailid" name="emailid" required="required" class="form-control" placeholder="Please enter your email">
+									</div>
+									<label for="password" class="col-12 col-form-label montserrat">
+										<h5>Password</h5>
+									</label>
+									<div class="col-12 form-group">
+										<input type="password" id="password" name="password" required="required" class="form-control" placeholder="Your password">
+										<input type="password" id="password" name="password" required="required" class="form-control mt-1" placeholder="Repeat password">
+									</div>
+									<a href="" class="col-auto ml-auto">Already have an account?</a>
+									<div class="col-12"></div>
+									<div class="col-auto mx-auto">
+				                        <button type="submit" class="btn btn-primary">Sign In</button>
+				                    </div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container m-0 w-100">
+			<div class="row row-content">	
+				<div class="col-12 card card-body">
+					<div style="font-size: 50px">About Us</div>
+					<div style="font-size: 40px">About Us</div>
+					<div style="font-size: 30px">About Us</div>
+					<div style="font-size: 20px">About Us</div>
+					<div style="font-size: 10px">About Us</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer secondary-dark">
+			<div class="container">
+				<div class="row">
+					<!-- <div class="col-5 col-md-3 offset-1 align-self-center mr-auto">
+						<div class="row">
+							<div class="col-12 text-center"><h3><strong>Explore</strong></h3></div>
+							<div class="col text-center">
+								<div>
+								<a href="" class="btn d-block text-white">Home</a>
+								<a href="" class="btn d-block text-white">About</a>
+								<a href="" class="btn d-block text-white">Products</a>
+								<a href="" class="btn d-block text-white">Services</a>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="col-6 col-md-3 mr-auto text-center">
+						<h3 class="montserrat font-weight-bold border-bottom">Reach Us</h3>
+						<address>221B, Baker Street, London, United Kingdom</address>
+						<div class="d-inline d-md-block">
+							<a href="tel:+9198231782139" class="btn text-white"><i class="fa fa-phone fa-lg"></i>  <span class="d-none d-md-inline">+91 98231782139</span></a>
+						</div>
+						<div class="d-inline d-md-block">
+							<a href="mailto:Support.fuelhook@gmail.com" class="btn text-white"><i class="fa fa-envelope-o fa-lg"></i>  <span class="d-none d-md-inline">Support.fuelhook@gmail.com</span></a>
+						</div>	
+					</div>
+
+					<div class="col col-md-3 text-center">
+						<h3 style="font-family: 'Montserrat', sans-serif;" class="font-weight-bold border-bottom">Follow</h3>
+                        <a href="http://www.facebook.com/profile.php?id=" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/therock/?hl=en" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a href="http://www.linkedin.com/in/" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="mailto:" class="btn btn-social-icon"><i class="fa fa-envelope-o fa-lg"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
