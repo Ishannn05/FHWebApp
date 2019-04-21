@@ -4,7 +4,9 @@
   "description": "Application for Fuel Hook web interface",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/Ishannn05/FHWebApp#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1"
+    "bootstrap": "^4.2.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.4.0",
+    "popper.js": "^1.14.6"
   }
 }

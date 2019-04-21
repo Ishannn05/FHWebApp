@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Antic|B612:700i|Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo:700|Asap+Condensed:600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Exo|Muli|Nunito|Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Quicksand|Varela+Round');
+html{
+	height: 100%;
+}
+.jumbotron{
+	padding: 100px 30px;
+	margin: 0px;
+	background-color: #ff9900;
+	/*background-color: #ff8300;*/
+   /*-webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: #0900ff;*/
+	color: black;
+	font-family: 'Fredoka One', cursive;
+}
+.primary-dark{
+	background-color: #000000;
+	color: snow;
+}
+.bg-orange{
+	background-color: #ff8300;
+	color: black;
+}
+.secondary-dark{
+	background-color: #827f7b;
+	color: snow;
+}
+.bg-gloss{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,45484d+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left, #000000 0%, #45484d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #000000 0%,#45484d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #000000 0%,#45484d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=1 ); /* IE6-9 */
+}
+a .text-muted:hover{
+	color: snow;
+}
+.row-content{
+	margin:0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge #D1C4E9;
+	min-height: 500px; 
+}
+.description{
+	color: black;
+	font-weight: bold;		
+	font-family: 'Antic', sans-serif;
+}
+body{
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+	height: 100%;
+}
+.navbar-dark{
+	background-color: black;
+	color: yellow;
+}
+.no-padding{
+	padding: 0px;
+}
+.sm-padding{
+	padding: 30px 0px 0px 0px;
+}
+.footer{
+	color: snow;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 500;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.min-width{
+	min-width: 30px;
+}
+.min-height{
+	min-height: 400px;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+.raleway{
+font-family: 'Raleway', sans-serif;
+}
+.muli{
+font-family: 'Muli', sans-serif;
+}
+.nunito{
+font-family: 'Nunito', sans-serif;
+}
+.exo{
+font-family: 'Exo', sans-serif;
+}
+.quicksand{
+	font-family: 'Quicksand', sans-serif;
+}
+.verelaRound{
+	font-family: 'Varela Round', sans-serif;
+}
+.newsCycle{
+    font-family: 'News Cycle', sans-serif;
+}
+ul.navbar-nav{
+	font-weight: 600;
+	color: #d8d8d8;
+}
+a.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 131, 0, 0.7)
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: rgb(255, 131, 0);
+}
